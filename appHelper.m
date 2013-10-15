@@ -10,7 +10,6 @@
 
 @implementation appHelper
 
-//111
 + (NSString *) tokenNormalise:(NSData *) _deviceToken
 {
     NSString *token = [[_deviceToken description]stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"<>"]];
